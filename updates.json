@@ -1,9 +1,9 @@
 {
-  "version": "0.1.2",
-  "url": "https://github.com/Jalkhov/usbix-dist/releases/download/v0.1.2/USBix-0.1.2-setup.exe",
-  "sha256": "be7daf55312003082b1551af76cb884481c772ab7b6017ece94a56423f7bc8a7",
+  "version": "0.1.3",
+  "url": "https://github.com/Jalkhov/usbix-dist/releases/download/v0.1.3/USBix-0.1.3-setup.exe",
+  "sha256": "8eaef5510c76a12f8c76fe740bab00643737ea37fdc685ed4bff90bdd183ac21",
   "rules_version": "20260925.1",
   "rules_url": "https://raw.githubusercontent.com/Jalkhov/usbix-dist/main/usbix-rules.tsv",
   "rules_sha256": "942ade64f72e0ab25aa32c62ceb39d881b99b188121cf80c17f9d18c73166e35",
-  "notes": "- Añadido: notas de versión (novedades) que la app muestra antes de actualizar.\n- Añadido: changelog y notas en el repositorio de distribución.\n- Mejora: el manifest firmado incluye las notas, así que vienen autenticadas."
+  "notes": "- Corregido: la descarga de la actualización fallaba porque GitHub responde con\n  una redirección (302) que no se seguía. Ahora se siguen las redirecciones.\n- Nuevo: la actualización se descarga en segundo plano con barra de progreso\n  (tamaño y porcentaje) y opción de cancelar.\n- Nuevo: diálogo de actualización con novedades, estados (descargando, lista,\n  error) y botón \"Instalar y cerrar\".\n- Nuevo: tras una actualización silenciosa, USBix se vuelve a abrir en la bandeja.\n- Corregido: ya no se duplica el aviso de \"Nueva versión disponible\"."
 }

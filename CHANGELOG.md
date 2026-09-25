@@ -2,6 +2,17 @@
 
 Todas las versiones notables de USBix. Formato basado en *Keep a Changelog*.
 
+## 0.1.3
+
+- Corregido: la descarga de la actualización fallaba porque GitHub responde con
+  una **redirección (302)** que no se seguía. Ahora se siguen las redirecciones.
+- Nuevo: la actualización se descarga **en segundo plano con barra de progreso**
+  (tamaño y porcentaje) y opción de **cancelar**.
+- Nuevo: diálogo de actualización con **novedades**, estados (descargando, lista,
+  error) y botón **"Instalar y cerrar"**.
+- Nuevo: tras una actualización silenciosa, USBix se **vuelve a abrir** en la bandeja.
+- Corregido: ya no se duplica el aviso de "Nueva versión disponible".
+
 ## 0.1.2
 
 - Añadido: **notas de versión** (novedades) que la app muestra antes de actualizar.
