@@ -1,7 +1,7 @@
 {
   "version": "0.1.2",
   "url": "https://github.com/Jalkhov/usbix-dist/releases/download/v0.1.2/USBix-0.1.2-setup.exe",
-  "sha256": "1d32e26f6f87197a2701f65c49dd83e515929f235be01d6f79f932d62756bbed",
+  "sha256": "712042965b6bff6d63344173abf801d454b4597bf554628e0aae89691bf08fa5",
   "rules_version": "20260925.1",
   "rules_url": "https://raw.githubusercontent.com/Jalkhov/usbix-dist/main/usbix-rules.tsv",
   "rules_sha256": "942ade64f72e0ab25aa32c62ceb39d881b99b188121cf80c17f9d18c73166e35",
