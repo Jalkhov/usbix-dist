@@ -1,8 +1,9 @@
 {
-  "version": "0.1.1",
-  "url": "https://github.com/Jalkhov/usbix-dist/releases/download/v0.1.1/USBix-0.1.1-setup.exe",
-  "sha256": "9efb99922df2ab76686b6e158312fd8582f90537fa998ab722d93eec5219cee2",
+  "version": "0.1.2",
+  "url": "https://github.com/Jalkhov/usbix-dist/releases/download/v0.1.2/USBix-0.1.2-setup.exe",
+  "sha256": "1308fe9a0e50ac0bdecdb84a7891ca4beadd345afb57f23f76b5f26e0f8f4944",
   "rules_version": "20260925.1",
   "rules_url": "https://raw.githubusercontent.com/Jalkhov/usbix-dist/main/usbix-rules.tsv",
-  "rules_sha256": "942ade64f72e0ab25aa32c62ceb39d881b99b188121cf80c17f9d18c73166e35"
+  "rules_sha256": "942ade64f72e0ab25aa32c62ceb39d881b99b188121cf80c17f9d18c73166e35",
+  "notes": "Novedades de USBix 0.1.2:\n- La app muestra las notas de version antes de actualizar.\n- Notas firmadas dentro del manifest.\n- Changelog en el repositorio de distribucion."
 }
