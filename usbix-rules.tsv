@@ -1,0 +1,9 @@
+# USBix - reglas de deteccion remotas
+# Formato (TSV), una por linea:
+#   name<TAB>valor<TAB>severidad
+#   token<TAB>valor<TAB>severidad
+#   token_and<TAB>a+b<TAB>severidad
+#   hash<TAB>sha256<TAB>etiqueta
+#   exec_extension<TAB>ext
+#   script_extension<TAB>ext
+# (Las reglas embebidas se conservan; esto solo amplia.)
