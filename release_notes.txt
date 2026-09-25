@@ -1,4 +1,3 @@
-Novedades de USBix 0.1.2:
-- La app muestra las notas de version antes de actualizar.
-- Notas firmadas dentro del manifest.
-- Changelog en el repositorio de distribucion.
+- Añadido: **notas de versión** (novedades) que la app muestra antes de actualizar.
+- Añadido: changelog y notas en el repositorio de distribución.
+- Mejora: el manifest firmado incluye las notas, así que vienen autenticadas.
