@@ -1,8 +1,13 @@
-- Corregido: la descarga de la actualización fallaba porque GitHub responde con
-  una **redirección (302)** que no se seguía. Ahora se siguen las redirecciones.
-- Nuevo: la actualización se descarga **en segundo plano con barra de progreso**
-  (tamaño y porcentaje) y opción de **cancelar**.
-- Nuevo: diálogo de actualización con **novedades**, estados (descargando, lista,
-  error) y botón **"Instalar y cerrar"**.
-- Nuevo: tras una actualización silenciosa, USBix se **vuelve a abrir** en la bandeja.
-- Corregido: ya no se duplica el aviso de "Nueva versión disponible".
+### Añadido
+
+- Descarga de la actualización **en segundo plano**, con barra de progreso
+  (tamaño y porcentaje) y botón de **cancelar**.
+- Diálogo de actualización con las **novedades** y estados claros (descargando,
+  lista, error), con el botón **"Instalar y cerrar"**.
+- Tras una actualización silenciosa, USBix se **vuelve a abrir** en la bandeja.
+
+### Corregido
+
+- La descarga de la actualización fallaba porque GitHub responde con una
+  **redirección (302)** que no se seguía.
+- Ya no se duplica el aviso de "Nueva versión disponible".
