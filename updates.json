@@ -5,5 +5,5 @@
   "rules_version": "20260925.1",
   "rules_url": "https://raw.githubusercontent.com/Jalkhov/usbix-dist/main/usbix-rules.tsv",
   "rules_sha256": "942ade64f72e0ab25aa32c62ceb39d881b99b188121cf80c17f9d18c73166e35",
-  "notes": "Añadido\n\n- Descarga de la actualización en segundo plano, con barra de progreso\n  (tamaño y porcentaje) y botón de cancelar.\n- Diálogo de actualización con las novedades y estados claros (descargando,\n  lista, error), con el botón \"Instalar y cerrar\".\n- Tras una actualización silenciosa, USBix se vuelve a abrir en la bandeja.\n\nCorregido\n\n- La descarga de la actualización fallaba porque GitHub responde con una\n  redirección (302) que no se seguía.\n- Ya no se duplica el aviso de \"Nueva versión disponible\"."
+  "notes": "### Añadido\n\n- Descarga de la actualización **en segundo plano**, con barra de progreso\n  (tamaño y porcentaje) y botón de **cancelar**.\n- Diálogo de actualización con las **novedades** y estados claros (descargando,\n  lista, error), con el botón **\"Instalar y cerrar\"**.\n- Tras una actualización silenciosa, USBix se **vuelve a abrir** en la bandeja.\n\n### Corregido\n\n- La descarga de la actualización fallaba porque GitHub responde con una\n  **redirección (302)** que no se seguía.\n- Ya no se duplica el aviso de \"Nueva versión disponible\"."
 }

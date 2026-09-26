@@ -17,7 +17,6 @@ tu PC para que los virus no vuelvan a instalarse.
 ### 👉 [Última versión (Releases)](https://github.com/Jalkhov/usbix-dist/releases/latest)
 
 - `USBix-x.y.z-setup.exe` — **instalador** (recomendado).
-- También hay versión **portable** (sin instalar) en algunos Releases.
 - Requiere **Windows 7 SP1 o posterior** (32 y 64 bits).
 - No necesita conexión a internet para analizar.
 
